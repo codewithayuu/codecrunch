@@ -1,0 +1,34 @@
+{
+  "model_path": "D:\\project\\hackathon\\codecrunch\\outputs_v5\\checkpoints\\best_model.pth",
+  "model_type": "7-class",
+  "encoder": "resnet101",
+  "parameters": 45671255,
+  "epoch": 9,
+  "val_miou": 0.7458851933479309,
+  "test_miou_single_scale": 0.4434734284877777,
+  "test_miou_ms_tta": 0.44748935103416443,
+  "tta_gain": 0.004015922546386719,
+  "inference_time_ms_single": 23.8,
+  "inference_time_ms_tta": 136.3,
+  "num_test_images": 1002,
+  "image_resolution": "540\u00d7960",
+  "model_input_resolution": "512\u00d7896",
+  "per_class_iou_single": {
+    "Trees": 0.4811,
+    "Lush Bushes": 0.0004,
+    "Dry Grass": 0.4692,
+    "Dry Bushes": 0.4977,
+    "Rocks": 0.0511,
+    "Landscape": 0.6222,
+    "Sky": 0.9825
+  },
+  "per_class_iou_ms_tta": {
+    "Trees": 0.5048,
+    "Lush Bushes": 0.0005,
+    "Dry Grass": 0.4751,
+    "Dry Bushes": 0.4977,
+    "Rocks": 0.0464,
+    "Landscape": 0.625,
+    "Sky": 0.983
+  }
+}

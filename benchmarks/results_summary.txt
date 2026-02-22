@@ -1,0 +1,36 @@
+============================================================
+CODECRUNCH — FINAL SUBMISSION RESULTS
+============================================================
+
+Model:          DeepLabV3+ resnet101
+Parameters:     45,671,255
+Classes:        7
+Input size:     512×896
+Output size:    540×960
+
+Val mIoU:              0.7459
+Test mIoU (SS):        0.4435
+Test mIoU (MS-TTA):    0.4475  (+0.0040)
+
+Inference time (SS):   23.8ms/image
+Inference time (TTA):  136.3ms/image
+
+Per-Class IoU (MS-TTA):
+----------------------------------------
+  Trees              0.5048
+  Lush Bushes        0.0005
+  Dry Grass          0.4751
+  Dry Bushes         0.4977
+  Rocks              0.0464
+  Landscape          0.6250
+  Sky                0.9830
+----------------------------------------
+  MEAN               0.4475
+
+
+Predictions saved to: D:\project\hackathon\codecrunch\final_submission/
+  predictions_color/  — 1002 color-coded PNG files
+  predictions_raw/    — 1002 raw class-value PNG files
+  comparisons/        — 15 input/GT/pred comparison images
+  per_class_iou.png   — IoU bar chart
+  results.json        — machine-readable results

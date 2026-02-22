@@ -1,0 +1,15 @@
+# CodeCrunch - Off-Road Semantic Segmentation
+# Python 3.10+
+
+# PyTorch - use ONE of these:
+# For RTX 50-series (Blackwell, sm_120):
+#   pip install --pre torch torchvision --index-url https://download.pytorch.org/whl/nightly/cu128
+# For other NVIDIA GPUs:
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
+
+segmentation-models-pytorch>=0.3.3
+albumentations>=2.0.0
+opencv-python>=4.8.0
+numpy>=1.24.0
+matplotlib>=3.7.0
+tqdm>=4.65.0

@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.eggs/
+*.egg
+
+# Environment
+.env
+.venv
+env/
+venv/
+EDU/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Large data files (not tracked in git)
+*.zip
+Offroad_Segmentation_Training_Dataset/
+Offroad_Segmentation_testImages/
+Offroad_Segmentation_Scripts/
+
+
+# Temporary
+*.log
+*.tmp
